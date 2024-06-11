@@ -2,6 +2,15 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 
 import { Home } from "./pages/Home/Home";
+import { Aniversario } from "./pages/Aniversario/Aniversario";
+import { Newborn } from "./pages/Newborn/Newborn";
+import { Eventos } from "./pages/Eventos/Eventos";
+import { Batizado } from "./pages/Batizado/Batizado";
+import { Familia } from "./pages/Familia/Familia";
+import { Feminino } from "./pages/Feminino/Feminino";
+import { Gestante } from "./pages/Gestante/Gestante";
+import { Infantil } from "./pages/Infantil/Infantil";
+
 import { theme } from "./styles/theme";
 import { GlobalStyle } from "./styles/global";
 
@@ -9,6 +18,38 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/aniversario",
+    element: <Aniversario />,
+  },
+  {
+    path: "/newborn",
+    element: <Newborn />,
+  },
+  {
+    path: "/eventos",
+    element: <Eventos />,
+  },
+  {
+    path: "/batizado",
+    element: <Batizado />,
+  },
+  {
+    path: "/familia",
+    element: <Familia />,
+  },
+  {
+    path: "/feminino",
+    element: <Feminino />,
+  },
+  {
+    path: "/gestante",
+    element: <Gestante />,
+  },
+  {
+    path: "/infantil",
+    element: <Infantil />,
   },
 ]);
 

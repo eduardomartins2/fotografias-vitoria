@@ -1,4 +1,4 @@
-export const Familia = () => {
+export const Infantil = () => {
   return (
     <div>
       <h1>ola</h1>

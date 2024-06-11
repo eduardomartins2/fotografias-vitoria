@@ -23,9 +23,10 @@ const Navbar = () => {
                     <SubMenuItem>Infantil</SubMenuItem>
                 </SubMenu>
             </MenuItem>
-            <MenuItem>Newborn</MenuItem>
             <MenuItem>Aniversario</MenuItem>
+            <MenuItem>Batizado</MenuItem>
             <MenuItem>Eventos</MenuItem>
+            <MenuItem>Newborn</MenuItem>
         </Nav>
     );
 };
