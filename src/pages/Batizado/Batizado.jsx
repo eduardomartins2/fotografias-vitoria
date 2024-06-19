@@ -1,7 +1,7 @@
 export const Batizado = () => {
     return (
       <div>
-        <h1>ola</h1>
+        <h1>Batizado</h1>
       </div>
     );
   };

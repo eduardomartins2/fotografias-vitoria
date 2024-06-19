@@ -20,6 +20,23 @@ export const MenuItem = styled.div`
         background-color: #EFEFED;
         color: #2F1F1F;
     }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        padding: 1px;
+        display: block;
+
+        &.active {
+            font-weight: bold;
+            color: #EFEFED;
+        }
+
+        &:hover {
+            background-color: #EFEFED;
+            color: #2F1F1F;
+        }
+    }
 `;
 
 export const SubMenu = styled.div`
@@ -38,5 +55,21 @@ export const SubMenuItem = styled.div`
     &:hover {
         background-color: #EFEFED;
         color: #2F1F1F;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+
+        &.active {
+            font-weight: bold;
+            color: #EFEFED;
+        }
+
+        &:hover {
+            background-color: #EFEFED;
+            color: #2F1F1F;
+        }
     }
 `;

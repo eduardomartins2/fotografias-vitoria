@@ -1,7 +1,7 @@
 export const Familia = () => {
   return (
     <div>
-      <h1>ola</h1>
+      <h1>Familia</h1>
     </div>
   );
 };

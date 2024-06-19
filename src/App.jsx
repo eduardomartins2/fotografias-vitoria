@@ -13,43 +13,23 @@ import { Infantil } from "./pages/Infantil/Infantil";
 
 import { theme } from "./styles/theme";
 import { GlobalStyle } from "./styles/global";
+import Layout from './components/Layout/Layout';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/aniversario",
-    element: <Aniversario />,
-  },
-  {
-    path: "/newborn",
-    element: <Newborn />,
-  },
-  {
-    path: "/eventos",
-    element: <Eventos />,
-  },
-  {
-    path: "/batizado",
-    element: <Batizado />,
-  },
-  {
-    path: "/familia",
-    element: <Familia />,
-  },
-  {
-    path: "/feminino",
-    element: <Feminino />,
-  },
-  {
-    path: "/gestante",
-    element: <Gestante />,
-  },
-  {
-    path: "/infantil",
-    element: <Infantil />,
+    element: <Layout />,
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "aniversario", element: <Aniversario /> },
+      { path: "newborn", element: <Newborn /> },
+      { path: "eventos", element: <Eventos /> },
+      { path: "batizado", element: <Batizado /> },
+      { path: "familia", element: <Familia /> },
+      { path: "feminino", element: <Feminino /> },
+      { path: "gestante", element: <Gestante /> },
+      { path: "infantil", element: <Infantil /> },
+    ],
   },
 ]);
 
