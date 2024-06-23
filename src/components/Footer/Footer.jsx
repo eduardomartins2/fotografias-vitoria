@@ -3,7 +3,7 @@ import { Foot } from "./footer-css"
 function Footer() {
     return (
         <Foot >
-            Vitoria Fotografias © All Rights Reserved 2024
+            Vitória Martins Fotografias © Todos Conteúdos Reservados 2024
         </Foot>
     )
 }
