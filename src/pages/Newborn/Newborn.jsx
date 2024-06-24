@@ -10,6 +10,8 @@ import newborn7 from "../../assets/Newborn/newborn_7.JPG";
 import newborn8 from "../../assets/Newborn/newborn_8.JPG";
 import newborn9 from "../../assets/Newborn/newborn_9.JPG";
 import newborn10 from "../../assets/Newborn/newborn_10.JPG";
+import newborn11 from "../../assets/Newborn/newborn_11.JPG";
+import newborn12 from "../../assets/Newborn/newborn_12.JPG";
 
 
 export const Newborn = () => {
@@ -25,6 +27,8 @@ export const Newborn = () => {
       <Box> <img alt="newborn8" src={newborn8} /></Box>
       <Box> <img alt="newborn9" src={newborn9} /></Box>
       <Box> <img alt="newborn10" src={newborn10} /></Box>
+      <Box> <img alt="newborn11" src={newborn11} /></Box>
+      <Box> <img alt="newborn12" src={newborn12} /></Box>
     </Image>
   );
 };

@@ -21,7 +21,6 @@ import formatura18 from "../../assets/Formatura/formatura_18.JPG";
 import formatura19 from "../../assets/Formatura/formatura_19.JPG";
 import formatura20 from "../../assets/Formatura/formatura_20.JPG";
 import formatura21 from "../../assets/Formatura/formatura_21.JPG";
-import formatura22 from "../../assets/Formatura/formatura_22.JPG";
 
 export const Eventos = () => {
   return (
@@ -47,7 +46,6 @@ export const Eventos = () => {
       <Box> <img alt="formatura19" src={formatura19} /></Box>
       <Box> <img alt="formatura20" src={formatura20} /></Box>
       <Box> <img alt="formatura21" src={formatura21} /></Box>
-      <Box> <img alt="formatura22" src={formatura22} /></Box>
     </Image>
   );
 };

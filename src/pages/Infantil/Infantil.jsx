@@ -24,6 +24,9 @@ import infantil21 from "../../assets/Infantil/infantil_21.JPG";
 import infantil22 from "../../assets/Infantil/infantil_22.JPG";
 import infantil23 from "../../assets/Infantil/infantil_23.JPG";
 import infantil24 from "../../assets/Infantil/infantil_24.JPG";
+import infantil25 from "../../assets/Infantil/infantil_25.JPG";
+import infantil26 from "../../assets/Infantil/infantil_26.jpg";
+import infantil27 from "../../assets/Infantil/infantil_27.JPG";
 
 const images = [
   { src: infantil1, alt: "infantil1" },
@@ -50,6 +53,9 @@ const images = [
   { src: infantil22, alt: "infantil22" },
   { src: infantil23, alt: "infantil23" },
   { src: infantil24, alt: "infantil24" },
+  { src: infantil25, alt: "infantil25" },
+  { src: infantil26, alt: "infantil26" },
+  { src: infantil27, alt: "infantil27" },
 ];
 
 const shuffleArray = (array) => {

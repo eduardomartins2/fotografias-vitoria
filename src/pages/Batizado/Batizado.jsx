@@ -21,7 +21,6 @@ import batizado18 from "../../assets/Batizado/batizado_18.JPG";
 import batizado19 from "../../assets/Batizado/batizado_19.JPG";
 import batizado20 from "../../assets/Batizado/batizado_20.JPG";
 import batizado21 from "../../assets/Batizado/batizado_21.JPG";
-import batizado22 from "../../assets/Batizado/batizado_22.JPG";
 
 export const Batizado = () => {
     return (
@@ -47,7 +46,6 @@ export const Batizado = () => {
         <Box> <img alt="batizado19" src={batizado19} /></Box>
         <Box> <img alt="batizado20" src={batizado20} /></Box>
         <Box> <img alt="batizado21" src={batizado21} /></Box>
-        <Box> <img alt="batizado22" src={batizado22} /></Box>
       </Image>
     );
   };
