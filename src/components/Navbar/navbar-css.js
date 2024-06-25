@@ -5,17 +5,22 @@ export const Nav = styled.nav`
     background-color: #2F1F1F;
     justify-content: space-evenly;
     color: #EFEFED;
-    padding: 10px;
+    padding: 1rem;
     align-items: center;
     font-weight: normal;
+    font-size: large;
+
+    @media (max-width: 768px) {
+        font-size: unset;
+    }
 `;
 
 export const MenuItem = styled.div`
     position: relative;
-    padding: 10px;
+    padding: 1rem;
     cursor: pointer;
     color: #EFEFED;
-    border-radius: 15px;
+    border-radius: 1.5rem;
     &:hover {
         background-color: #EFEFED;
         color: #2F1F1F;
@@ -24,7 +29,7 @@ export const MenuItem = styled.div`
     a {
         text-decoration: none;
         color: inherit;
-        padding: 1px;
+        padding: 0.1rem;
         display: block;
 
         &.active {
@@ -44,12 +49,12 @@ export const SubMenu = styled.div`
     top: 100%;
     left: 0;
     background-color: #2F1F1F;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 1rem 1rem;
     display: ${props => props.visible ? 'block' : 'none'};
 `;
 
 export const SubMenuItem = styled.div`
-    padding: 10px;
+    padding: 1rem;
     color: #EFEFED;
     cursor: pointer;
     &:hover {

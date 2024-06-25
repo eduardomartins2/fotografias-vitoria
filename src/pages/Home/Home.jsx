@@ -9,6 +9,5 @@ export const Home = () => {
       <Body />
       <Sobre />
     </Container>
-    
   );
 };

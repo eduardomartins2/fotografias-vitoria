@@ -7,7 +7,7 @@ export const Container = styled.div`
 
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 4rem;
 
 `;
 
@@ -17,25 +17,25 @@ export const Head = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 35px;
+  margin-top: 3.5rem;
 `;
 
 export const Title = styled.p`
 color: #2F1F1F;
-font-size: 20px;
-margin-bottom: -20px;
+font-size: 2rem;
+margin-bottom: -2rem;
 font-weight: bold ;
+
 `;
 
 export const Fotografia = styled.h1`
 color: #2F1F1F;
-font-size: 80px;
+font-size: 8rem;
 margin: unset;
-background: -webkit-linear-gradient(left, black 43%, #2F1F1F 20%);
-background-clip: text;
--webkit-background-clip: text;
-color: transparent;
--webkit-text-fill-color: transparent;
+
+@media (max-width: 768px) {
+    margin-left: 4rem;
+}
 
 `
 

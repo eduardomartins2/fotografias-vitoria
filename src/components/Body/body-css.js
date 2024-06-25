@@ -4,6 +4,7 @@ export const Image = styled.div`
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    padding: 1rem;
 `;
 
 export const Box = styled.div`

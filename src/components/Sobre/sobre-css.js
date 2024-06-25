@@ -5,16 +5,16 @@ export const AboutSection = styled.section`
     align-items: center;
     background-color: #EFEFED;
     color: #2F1F1F;
-    padding: 20px;
+    padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 `;
 
 export const PhotoContainer = styled.div`
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin-right: 20px;
+    border-radius: 10%;
+    width: 30rem;
+    height: 40rem;
+    margin-right: 2rem;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 `;
@@ -26,11 +26,18 @@ export const StyledImage = styled.img`
 `;
 
 export const AboutText = styled.div`
-    font-size: 1.2em;
-    line-height: 1.5;
+    font-size: 1.8rem;
+    line-height: normal;
 
     h2 {
-        margin-bottom: 10px;
+        margin-bottom: 1rem;
         font-weight: bold;
     }
+`;
+
+export const Redes = styled.div`
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 `;

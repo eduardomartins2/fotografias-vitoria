@@ -10,4 +10,8 @@ export const GlobalStyle = createGlobalStyle`
     font-family: "Inika", sans-serif;
 }
 
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
 `;
