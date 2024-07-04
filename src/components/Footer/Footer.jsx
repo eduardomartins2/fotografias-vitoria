@@ -1,11 +1,13 @@
-import { Foot } from "./footer-css"
+import { Foot } from "./footer-css";
 
 function Footer() {
     return (
-        <Foot >
-            Vitória Martins Fotografias © Todos Conteúdos Reservados 2024
+        <Foot>
+            <a href="#top" className="footer-link">
+                © Eduardo Martins 2024
+            </a>
         </Foot>
-    )
+    );
 }
 
-export default Footer
+export default Footer;

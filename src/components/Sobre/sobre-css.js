@@ -12,8 +12,8 @@ export const AboutSection = styled.section`
 
 export const PhotoContainer = styled.div`
     border-radius: 10%;
-    width: 30rem;
-    height: 40rem;
+    width: 40%;
+    height: 50%;
     margin-right: 2rem;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -26,8 +26,12 @@ export const StyledImage = styled.img`
 `;
 
 export const AboutText = styled.div`
+    width: 80%;
+    height: 100%;
     font-size: 1.8rem;
     line-height: normal;
+    flex-wrap: wrap;
+    align-items: center;
 
     h2 {
         margin-bottom: 1rem;

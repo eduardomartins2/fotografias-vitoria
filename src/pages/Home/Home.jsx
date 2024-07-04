@@ -6,8 +6,8 @@ import Sobre from "../../components/Sobre/Sobre";
 export const Home = () => {
   return (
     <Container>
-      <Body />
       <Sobre />
+      <Body />
     </Container>
   );
 };

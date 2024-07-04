@@ -21,6 +21,31 @@ import batizado18 from "../../assets/Batizado/batizado_18.JPG";
 import batizado19 from "../../assets/Batizado/batizado_19.JPG";
 import batizado20 from "../../assets/Batizado/batizado_20.JPG";
 import batizado21 from "../../assets/Batizado/batizado_21.JPG";
+import batizado22 from "../../assets/Batizado/batizado_22.JPG";
+import batizado23 from "../../assets/Batizado/batizado_23.JPG";
+import batizado24 from "../../assets/Batizado/batizado_24.JPG";
+import batizado25 from "../../assets/Batizado/batizado_25.JPG";
+import batizado26 from "../../assets/Batizado/batizado_26.JPG";
+import batizado27 from "../../assets/Batizado/batizado_27.JPG";
+import batizado28 from "../../assets/Batizado/batizado_28.JPG";
+import batizado29 from "../../assets/Batizado/batizado_29.JPG";
+import batizado30 from "../../assets/Batizado/batizado_30.JPG";
+import batizado31 from "../../assets/Batizado/batizado_31.JPG";
+import batizado32 from "../../assets/Batizado/batizado_32.JPG";
+import batizado33 from "../../assets/Batizado/batizado_33.JPG";
+import batizado34 from "../../assets/Batizado/batizado_34.JPG";
+import batizado35 from "../../assets/Batizado/batizado_35.JPG";
+import batizado36 from "../../assets/Batizado/batizado_36.JPG";
+import batizado37 from "../../assets/Batizado/batizado_37.JPG";
+import batizado38 from "../../assets/Batizado/batizado_38.JPG";
+import batizado39 from "../../assets/Batizado/batizado_39.JPG";
+import batizado40 from "../../assets/Batizado/batizado_40.JPG";
+import batizado41 from "../../assets/Batizado/batizado_41.JPG";
+import batizado42 from "../../assets/Batizado/batizado_42.JPG";
+import batizado43 from "../../assets/Batizado/batizado_43.JPG";
+import batizado44 from "../../assets/Batizado/batizado_44.JPG";
+import batizado45 from "../../assets/Batizado/batizado_45.JPG";
+
 
 export const Batizado = () => {
     return (
@@ -46,6 +71,30 @@ export const Batizado = () => {
         <Box> <img alt="batizado19" src={batizado19} /></Box>
         <Box> <img alt="batizado20" src={batizado20} /></Box>
         <Box> <img alt="batizado21" src={batizado21} /></Box>
+        <Box> <img alt="batizado22" src={batizado22} /></Box>
+        <Box> <img alt="batizado23" src={batizado23} /></Box>
+        <Box> <img alt="batizado24" src={batizado24} /></Box>
+        <Box> <img alt="batizado25" src={batizado25} /></Box>
+        <Box> <img alt="batizado26" src={batizado26} /></Box>
+        <Box> <img alt="batizado27" src={batizado27} /></Box>
+        <Box> <img alt="batizado28" src={batizado28} /></Box>
+        <Box> <img alt="batizado29" src={batizado29} /></Box>
+        <Box> <img alt="batizado30" src={batizado30} /></Box>
+        <Box> <img alt="batizado31" src={batizado31} /></Box>
+        <Box> <img alt="batizado32" src={batizado32} /></Box>
+        <Box> <img alt="batizado33" src={batizado33} /></Box>
+        <Box> <img alt="batizado34" src={batizado34} /></Box>
+        <Box> <img alt="batizado35" src={batizado35} /></Box>
+        <Box> <img alt="batizado36" src={batizado36} /></Box>
+        <Box> <img alt="batizado37" src={batizado37} /></Box>
+        <Box> <img alt="batizado38" src={batizado38} /></Box>
+        <Box> <img alt="batizado39" src={batizado39} /></Box>
+        <Box> <img alt="batizado40" src={batizado40} /></Box>
+        <Box> <img alt="batizado41" src={batizado41} /></Box>
+        <Box> <img alt="batizado42" src={batizado42} /></Box>
+        <Box> <img alt="batizado43" src={batizado43} /></Box>
+        <Box> <img alt="batizado44" src={batizado44} /></Box>
+        <Box> <img alt="batizado45" src={batizado45} /></Box>
       </Image>
     );
   };

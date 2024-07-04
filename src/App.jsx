@@ -10,6 +10,9 @@ import { Familia } from "./pages/Familia/Familia";
 import { Feminino } from "./pages/Feminino/Feminino";
 import { Gestante } from "./pages/Gestante/Gestante";
 import { Infantil } from "./pages/Infantil/Infantil";
+import { PreAniversario } from "./pages/PreAniversario/PreAniversario";
+import { SmashTheCake } from "./pages/SmashTheCake/SmashTheCake";
+import { SmashTheFruit } from "./pages/SmashTheFruit/SmashTheFruit";
 
 import { theme } from "./styles/theme";
 import { GlobalStyle } from "./styles/global";
@@ -29,6 +32,9 @@ const router = createBrowserRouter([
       { path: "feminino", element: <Feminino /> },
       { path: "gestante", element: <Gestante /> },
       { path: "infantil", element: <Infantil /> },
+      { path: "preaniversario", element: <PreAniversario /> },
+      { path: "smash-the-cake", element: <SmashTheCake /> },
+      { path: "smash-the-fruit", element: <SmashTheFruit /> },
     ],
   },
 ]);

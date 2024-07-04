@@ -4,21 +4,34 @@ import { NavLink } from "react-router-dom";
 import { Nav, MenuItem, SubMenu, SubMenuItem } from "./navbar-css";
 
 const Navbar = () => {
-  const [subNavVisible, setSubNavVisible] = useState(false);
+  const [visibleSubMenuIndex, setVisibleSubMenuIndex] = useState(null);
 
-  const handleMouseEnter = () => {
-    setSubNavVisible(true);
+  const handleMouseEnter = (index) => {
+    setVisibleSubMenuIndex(index);
   };
 
   const handleMouseLeave = () => {
-    setSubNavVisible(false);
+    setVisibleSubMenuIndex(null);
   };
 
   return (
     <Nav>
-      <MenuItem onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      <MenuItem>
+        <NavLink to="/" activeClassName="active">
+          Home
+        </NavLink>
+      </MenuItem>
+      <MenuItem
+        onMouseEnter={() => handleMouseEnter(0)}
+        onMouseLeave={handleMouseLeave}
+      >
         Ensaios
-        <SubMenu visible={subNavVisible}>
+        <SubMenu visible={visibleSubMenuIndex === 0}>
+          <SubMenuItem>
+            <NavLink to="/eventos" activeClassName="active">
+              Eventos
+            </NavLink>
+          </SubMenuItem>
           <SubMenuItem>
             <NavLink to="/familia" activeClassName="active">
               Família
@@ -41,19 +54,37 @@ const Navbar = () => {
           </SubMenuItem>
         </SubMenu>
       </MenuItem>
-      <MenuItem>
-        <NavLink to="/aniversario" activeClassName="active">
-          Aniversário
-        </NavLink>
+      <MenuItem
+        onMouseEnter={() => handleMouseEnter(1)}
+        onMouseLeave={handleMouseLeave}
+      >
+        Ensaios
+        <SubMenu visible={visibleSubMenuIndex === 1}>
+          <SubMenuItem>
+            <NavLink to="/aniversario" activeClassName="active">
+              Aniversario
+            </NavLink>
+          </SubMenuItem>
+          <SubMenuItem>
+            <NavLink to="/preaniversario" activeClassName="active">
+              Pré Aniversario
+            </NavLink>
+          </SubMenuItem>
+          <SubMenuItem>
+            <NavLink to="/smash-the-cake" activeClassName="active">
+              Smash The Cake
+            </NavLink>
+          </SubMenuItem>
+          <SubMenuItem>
+            <NavLink to="/smash-the-fruit" activeClassName="active">
+              Smash The Fruit
+            </NavLink>
+          </SubMenuItem>
+        </SubMenu>
       </MenuItem>
       <MenuItem>
         <NavLink to="/batizado" activeClassName="active">
           Batizado
-        </NavLink>
-      </MenuItem>
-      <MenuItem>
-        <NavLink to="/eventos" activeClassName="active">
-          Eventos
         </NavLink>
       </MenuItem>
       <MenuItem>
