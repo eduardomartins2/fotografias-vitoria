@@ -18,7 +18,6 @@ import aniversario15 from "../../assets/Aniversario/aniversario_15.JPG";
 import aniversario16 from "../../assets/Aniversario/aniversario_16.JPG";
 import aniversario17 from "../../assets/Aniversario/aniversario_17.JPG";
 import aniversario18 from "../../assets/Aniversario/aniversario_18.JPG";
-import aniversario19 from "../../assets/Aniversario/aniversario_19.JPG";
 import aniversario20 from "../../assets/Aniversario/aniversario_20.JPG";
 import aniversario21 from "../../assets/Aniversario/aniversario_21.JPG";
 import aniversario22 from "../../assets/Aniversario/aniversario_22.JPG";
@@ -54,7 +53,6 @@ export const Aniversario = () => {
       <Box><img alt="aniversario16" src={aniversario16} /></Box>
       <Box><img alt="aniversario17" src={aniversario17} /></Box>
       <Box><img alt="aniversario18" src={aniversario18} /></Box>
-      <Box><img alt="aniversario19" src={aniversario19} /></Box>
       <Box><img alt="aniversario20" src={aniversario20} /></Box>
       <Box><img alt="aniversario21" src={aniversario21} /></Box>
       <Box><img alt="aniversario22" src={aniversario22} /></Box>
