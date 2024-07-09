@@ -3,7 +3,7 @@ import { Image, Box } from "../../components/Body/body-css";
 import infantil1 from "../../assets/Infantil/infantil_1.JPG";
 import infantil2 from "../../assets/Infantil/infantil_2.JPG";
 import infantil3 from "../../assets/Infantil/infantil_3.JPG";
-import infantil4 from "../../assets/Infantil/infantil_4.jpg";
+import infantil16 from "../../assets/Infantil/infantil_16.JPG";
 import infantil5 from "../../assets/Infantil/infantil_5.JPG";
 import infantil6 from "../../assets/Infantil/infantil_6.JPG";
 import infantil7 from "../../assets/Infantil/infantil_7.JPG";
@@ -25,7 +25,7 @@ export const Infantil = () => {
       <Box> <img alt="infantil1" src={infantil1} /></Box>
       <Box> <img alt="infantil2" src={infantil2} /></Box>
       <Box> <img alt="infantil3" src={infantil3} /></Box>
-      <Box> <img alt="infantil4" src={infantil4} /></Box>
+      <Box> <img alt="infantil4" src={infantil16} /></Box>
       <Box> <img alt="infantil5" src={infantil5} /></Box>
       <Box> <img alt="infantil6" src={infantil6} /></Box>
       <Box> <img alt="infantil7" src={infantil7} /></Box>
