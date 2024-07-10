@@ -58,7 +58,7 @@ const Navbar = () => {
         onMouseEnter={() => handleMouseEnter(1)}
         onMouseLeave={handleMouseLeave}
       >
-        Ensaios
+        Aniversários
         <SubMenu visible={visibleSubMenuIndex === 1}>
           <SubMenuItem>
             <NavLink to="/aniversario" activeClassName="active">
