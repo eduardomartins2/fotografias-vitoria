@@ -35,29 +35,33 @@ export const Head = styled.div`
 
 export const Title = styled.p`
 color: #2F1F1F;
-font-size: 1.2rem;
+font-size: 1.6rem;
 margin-bottom: -0.5rem;
 font-weight: bold ;
 
 @media (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin-bottom: -0.3rem;
+}
+
+@media (max-width: 480px) {
+    font-size: 1.2rem;
 }
 `;
 
 export const Fotografia = styled.h1`
 color: #2F1F1F;
-font-size: 3rem;
+font-size: 4rem;
 margin: unset;
 font-weight: 700;
 
 @media (max-width: 768px) {
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     margin-left: 0;
 }
 
 @media (max-width: 480px) {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
 }
 `;
 

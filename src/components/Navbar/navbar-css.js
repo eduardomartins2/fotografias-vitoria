@@ -3,31 +3,31 @@ import styled from "styled-components";
 export const Nav = styled.nav`
     display: flex;
     background-color: #2F1F1F;
-    justify-content: center;
+    justify-content: space-evenly;
     color: #EFEFED;
-    padding: 1rem;
+    padding: 1.2rem;
     align-items: center;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 1.2rem;
     flex-wrap: wrap;
-    gap: 0.4rem;
+    gap: 1rem;
 
     @media (max-width: 768px) {
-        font-size: 0.9rem;
-        padding: 0.8rem;
-        gap: 0.3rem;
+        font-size: 1.1rem;
+        padding: 1rem;
+        gap: 0.8rem;
     }
 
     @media (max-width: 480px) {
-        font-size: 0.85rem;
-        padding: 0.7rem;
-        gap: 0.2rem;
+        font-size: 1rem;
+        padding: 0.8rem;
+        gap: 0.6rem;
     }
 `;
 
 export const MenuItem = styled.div`
     position: relative;
-    padding: 0.8rem 1rem;
+    padding: 1rem 1.2rem;
     cursor: pointer;
     color: #EFEFED;
     border-radius: 1.5rem;
@@ -40,11 +40,11 @@ export const MenuItem = styled.div`
     }
 
     @media (max-width: 768px) {
-        padding: 0.7rem 0.9rem;
+        padding: 0.9rem 1.1rem;
     }
 
     @media (max-width: 480px) {
-        padding: 0.6rem 0.8rem;
+        padding: 0.8rem 1rem;
     }
 
     a {
@@ -87,7 +87,7 @@ export const SubMenu = styled.div`
 `;
 
 export const SubMenuItem = styled.div`
-    padding: 0.8rem 1rem;
+    padding: 1rem 1.2rem;
     color: #EFEFED;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -98,7 +98,7 @@ export const SubMenuItem = styled.div`
     }
 
     @media (max-width: 480px) {
-        padding: 0.7rem 0.9rem;
+        padding: 0.9rem 1.1rem;
         text-align: center;
     }
 
