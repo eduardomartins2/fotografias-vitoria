@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
 import { Container, Fotografia, Head, StyledLink, Title } from '../../pages/Home/home-css';
 import Footer from '../Footer/Footer';
+import BackToTop from '../BackToTop/BackToTop';
 
 const Layout = () => {
     return (
@@ -16,6 +17,7 @@ const Layout = () => {
             <Navbar />
             <Outlet />
             <Footer />
+            <BackToTop />
         </Container>
     );
 };

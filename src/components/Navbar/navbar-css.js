@@ -8,9 +8,9 @@ export const Nav = styled.nav`
     padding: 1rem;
     align-items: center;
     font-weight: normal;
-    font-size: large;
+    font-size: 1rem;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 0.4rem;
 
     @media (max-width: 768px) {
         font-size: 0.9rem;
@@ -19,9 +19,8 @@ export const Nav = styled.nav`
     }
 
     @media (max-width: 480px) {
-        font-size: 0.8rem;
-        padding: 0.6rem;
-        flex-direction: column;
+        font-size: 0.85rem;
+        padding: 0.7rem;
         gap: 0.2rem;
     }
 `;
@@ -41,13 +40,11 @@ export const MenuItem = styled.div`
     }
 
     @media (max-width: 768px) {
-        padding: 0.6rem 0.8rem;
+        padding: 0.7rem 0.9rem;
     }
 
     @media (max-width: 480px) {
-        padding: 0.5rem 0.7rem;
-        width: 100%;
-        text-align: center;
+        padding: 0.6rem 0.8rem;
     }
 
     a {
@@ -101,7 +98,7 @@ export const SubMenuItem = styled.div`
     }
 
     @media (max-width: 480px) {
-        padding: 0.6rem 0.8rem;
+        padding: 0.7rem 0.9rem;
         text-align: center;
     }
 

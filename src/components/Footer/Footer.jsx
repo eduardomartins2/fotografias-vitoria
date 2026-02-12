@@ -9,7 +9,7 @@ function Footer() {
                 rel="noopener noreferrer"
                 className="footer-link"
             >
-                © Eduardo Martins 2024
+                © Eduardo Martins Copyright
             </a>
         </Foot>
     );
