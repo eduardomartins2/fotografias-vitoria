@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Nav = styled.nav`
     display: flex;
     background-color: #2F1F1F;
-    justify-content: space-evenly;
+    justify-content: center;
     color: #EFEFED;
     padding: 1rem;
     align-items: center;
@@ -13,14 +13,22 @@ export const Nav = styled.nav`
     gap: 0.5rem;
 
     @media (max-width: 768px) {
-        font-size: unset;
+        font-size: 0.9rem;
         padding: 0.8rem;
+        gap: 0.3rem;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 0.8rem;
+        padding: 0.6rem;
+        flex-direction: column;
+        gap: 0.2rem;
     }
 `;
 
 export const MenuItem = styled.div`
     position: relative;
-    padding: 1rem;
+    padding: 0.8rem 1rem;
     cursor: pointer;
     color: #EFEFED;
     border-radius: 1.5rem;
@@ -30,6 +38,16 @@ export const MenuItem = styled.div`
         background-color: #EFEFED;
         color: #2F1F1F;
         transform: translateY(-2px);
+    }
+
+    @media (max-width: 768px) {
+        padding: 0.6rem 0.8rem;
+    }
+
+    @media (max-width: 480px) {
+        padding: 0.5rem 0.7rem;
+        width: 100%;
+        text-align: center;
     }
 
     a {
@@ -60,10 +78,19 @@ export const SubMenu = styled.div`
     z-index: 1000;
     min-width: 150px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    @media (max-width: 480px) {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+        background-color: #1a1a1a;
+        border-radius: 0;
+        display: ${props => props.visible ? 'block' : 'none'};
+    }
 `;
 
 export const SubMenuItem = styled.div`
-    padding: 1rem;
+    padding: 0.8rem 1rem;
     color: #EFEFED;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -71,6 +98,11 @@ export const SubMenuItem = styled.div`
     &:hover {
         background-color: #EFEFED;
         color: #2F1F1F;
+    }
+
+    @media (max-width: 480px) {
+        padding: 0.6rem 0.8rem;
+        text-align: center;
     }
 
     a {
@@ -87,27 +119,5 @@ export const SubMenuItem = styled.div`
             background-color: #EFEFED;
             color: #2F1F1F;
         }
-    }
-`;
-
-export const ContactButton = styled.a`
-    background: linear-gradient(45deg, #ff6b6b, #ee5a24);
-    color: white;
-    padding: 0.8rem 1.5rem;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(238, 90, 36, 0.3);
-
-    &:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(238, 90, 36, 0.4);
-        background: linear-gradient(45deg, #ee5a24, #ff6b6b);
-    }
-
-    @media (max-width: 768px) {
-        padding: 0.6rem 1.2rem;
-        font-size: 0.9rem;
     }
 `;

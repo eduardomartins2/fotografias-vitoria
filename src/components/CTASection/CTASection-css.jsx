@@ -87,10 +87,6 @@ export const PrimaryButton = styled.a`
     background: #f8f9fa;
   }
 
-  span {
-    font-size: 1.3rem;
-  }
-
   @media (max-width: 768px) {
     font-size: 1rem;
     padding: 0.9rem 2rem;
@@ -116,10 +112,6 @@ export const SecondaryButton = styled.a`
     background: white;
     color: #ff6b6b;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  }
-
-  span {
-    font-size: 1.3rem;
   }
 
   @media (max-width: 768px) {

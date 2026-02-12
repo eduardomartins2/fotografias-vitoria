@@ -11,10 +11,10 @@ const CTASectionComponent = () => {
         </CTADescription>
         <CTAButtons>
           <PrimaryButton href="https://wa.me/5524992481407?text=Olá!%20Gostaria%20de%20agendar%20uma%20sessão%20fotográfica">
-            <span>📱</span> Agendar Agora
+            Agendar Agora
           </PrimaryButton>
           <SecondaryButton href="https://www.instagram.com/vitoriamartinsfotografias">
-            <span>📷</span> Ver Portfólio
+            Ver Portfólio
           </SecondaryButton>
         </CTAButtons>
       </CTAContent>

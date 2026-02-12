@@ -46,53 +46,62 @@ export const HeroContent = styled.div`
 
   @media (max-width: 768px) {
     margin-bottom: 3rem;
+    max-width: 100%;
   }
 `;
 
 export const HeroTitle = styled.h1`
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #2c2c2c;
   margin-bottom: 1rem;
   line-height: 1.2;
 
   @media (max-width: 768px) {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.8rem;
   }
 `;
 
 export const HeroSubtitle = styled.h2`
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #666;
   margin-bottom: 2rem;
   font-style: italic;
 
   @media (max-width: 768px) {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1rem;
   }
 `;
 
 export const HeroDescription = styled.p`
-  font-size: 1.1rem;
-  line-height: 1.8;
+  font-size: 1rem;
+  line-height: 1.6;
   color: #555;
   margin-bottom: 2.5rem;
 
   @media (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 `;
 
 export const CTAButton = styled.a`
   display: inline-block;
-  padding: 1rem 2.5rem;
+  padding: 0.9rem 2rem;
   background: linear-gradient(45deg, #ff6b6b, #ee5a24);
   color: white;
   text-decoration: none;
   border-radius: 50px;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1rem;
   transition: all 0.3s ease;
   box-shadow: 0 10px 30px rgba(238, 90, 36, 0.3);
 
@@ -103,29 +112,33 @@ export const CTAButton = styled.a`
   }
 
   @media (max-width: 768px) {
-    font-size: 1rem;
-    padding: 0.9rem 2rem;
+    font-size: 0.9rem;
+    padding: 0.8rem 1.8rem;
   }
 `;
 
 export const HeroImage = styled.div`
   flex: 1;
-  max-width: 500px;
+  max-width: 400px;
   animation: ${fadeIn} 1.5s ease-out;
 
   img {
     width: 100%;
     height: auto;
-    border-radius: 20px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease;
 
     &:hover {
-      transform: scale(1.05);
+      transform: scale(1.02);
     }
   }
 
   @media (max-width: 768px) {
-    max-width: 300px;
+    max-width: 250px;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 200px;
   }
 `;
