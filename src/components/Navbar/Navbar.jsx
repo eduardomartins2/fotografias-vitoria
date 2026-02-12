@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-import { Nav, MenuItem, SubMenu, SubMenuItem } from "./navbar-css";
+import { Nav, MenuItem, SubMenu, SubMenuItem, ContactButton } from "./navbar-css";
 
 const Navbar = () => {
   const [visibleSubMenuIndex, setVisibleSubMenuIndex] = useState(null);
@@ -92,6 +92,9 @@ const Navbar = () => {
           Newborn
         </NavLink>
       </MenuItem>
+      <ContactButton href="https://wa.me/5524992481407" target="_blank" rel="noopener noreferrer">
+        📱 Contato
+      </ContactButton>
     </Nav>
   );
 };

@@ -1,4 +1,4 @@
-import { AboutSection, PhotoContainer, StyledImage, AboutText, Redes } from "./sobre-css";
+import { AboutSection, PhotoContainer, StyledImage, AboutText, Redes, StatsContainer, StatItem } from "./sobre-css";
 import vitoria from "../../assets/Sobre/vitoria.jpg";
 import instagram from "../../assets/Sobre/instagram.svg";
 import whatsapp from "../../assets/Sobre/whatsapp.svg";
@@ -10,21 +10,48 @@ const Sobre = () => {
                 <StyledImage alt="Vitoria" src={vitoria} />
             </PhotoContainer>
             <AboutText>
-                <h2>Sobre</h2>
-                <p>Meu nome é Vitoria Martins e sou fotógrafa.
-                    <br />A fotografia para mim é mais do que uma profissão.
-                    <br /> É um estilo de vida que resolvi seguir por toda a minha jornada.</p>
-                <br />
-                <br />
-                <p>Você pode entrar em contato comigo pelo WhatsApp <br />
-                    ou seguir meu trabalho no Instagram:</p>
-                <br />
+                <h2>Sobre Mim</h2>
+                <p>
+                    Olá! Sou Vitória Martins, uma fotógrafa apaixonada por capturar 
+                    <strong> momentos que contam histórias </strong>e emocionam gerações.
+                </p>
+                <p>
+                    Com mais de 5 anos de experiência, especializei-me em 
+                    <strong> fotografia de família, newborn e ensaios emocionantes </strong>
+                    que transformam simples instantâneos em memórias eternas.
+                </p>
+                <p>
+                    Minha missão é mais do que apenas clicar um botão. 
+                    É criar uma experiência confortável e divertida, 
+                    onde cada pessoa pode ser autêntica e mostrar sua verdadeira essência.
+                </p>
+                
+                <StatsContainer>
+                    <StatItem>
+                        <strong>500+</strong>
+                        <span>Famílias Felizes</span>
+                    </StatItem>
+                    <StatItem>
+                        <strong>1000+</strong>
+                        <span>Sessões Realizadas</span>
+                    </StatItem>
+                    <StatItem>
+                        <strong>5★</strong>
+                        <span>Avaliação Média</span>
+                    </StatItem>
+                </StatsContainer>
+
+                <p style={{ marginTop: '2rem' }}>
+                    <strong>Pronta para criar memórias inesquecíveis?</strong>
+                    <br />
+                    Entre em contato e vamos conversar sobre sua sessão dos sonhos!
+                </p>
+                
                 <Redes>
-                    <a href="https://wa.me/5524992481407">
+                    <a href="https://wa.me/5524992481407" target="_blank" rel="noopener noreferrer">
                         <img src={whatsapp} alt="WhatsApp" style={{ width: '48px', height: '48px' }} />
                     </a>
-                    <br />
-                    <a href="https://www.instagram.com/vitoriamartinsfotografias">
+                    <a href="https://www.instagram.com/vitoriamartinsfotografias" target="_blank" rel="noopener noreferrer">
                         <img src={instagram} alt="Instagram" style={{ width: '48px', height: '48px' }} />
                     </a>
                 </Redes>
